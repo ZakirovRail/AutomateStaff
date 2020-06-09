@@ -4,7 +4,7 @@ from selenium.webdriver.support import expected_conditions as expect
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.action_chains import ActionChains
 
-# link = input('Provide a link for getting last feedback: ')
+
 browser = webdriver.Chrome()
 gb_link = 'https://geekbrains.ru/'
 browser.get(gb_link)
